@@ -13,39 +13,38 @@
 }
 
 header{
-    position: relative;
-    height: 70px;
+    height: 45px;
     background-color: rgba(0,0,0,255);
+    z-index: 1;
+    text-align: right;
 }
 
-.container-span{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
 
-header .span{
-    vertical-align: middle;
-    text-align: center;
+
+.button{
+    background-color: grey;
+    border: none;
+    border-radius: 20px;
     color: #fff;
-    background-color: rgba(74,74,74,255);
-    margin: 5px;
-    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 4px;
 }
 
 main{
     background-color: rgba(0,0,0,255);
+    height: calc(100vh - 145px);
+    overflow-y: scroll;
+    
 }
 
-.container{
-    width: 95%;
-    padding-top: 4rem;
-    margin: 0 auto;
+.gallery{
+    justify-content: center;
 }
 
 .card{
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
     margin-right: 7px;
     height: 100px;
     width: 180px;
@@ -68,7 +67,6 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px;
     background-color: rgba(34,34,34,255);
     justify-content: space-between;
     color: #fff;
@@ -92,9 +90,11 @@ footer{
 }
 
 .container-segnal{
-    margin-right: 18px;
+    text-align: center;
+    margin-right: 7px;
 }
 .cap{
+    margin: 0 10px;
     line-height: 50px;
     font-weight: bolder;
 }
